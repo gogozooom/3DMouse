@@ -18,6 +18,7 @@ public static class _3DMouse
     [Command("InitMouse", "Initalizes 3DMouse Device!")]
     public static bool Initalize()
     {
+        if (WindowManager.Initialized) { Engine.LogWarning("3DMouse initalized after BoboEngine! Console commands will not work! Please run this method during the OnEngineInitalize phase!"); }
         var list = DeviceList.Local;
 
         string targetID = GetFormattedID();
