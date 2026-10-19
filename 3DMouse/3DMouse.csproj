@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>_3DMouse</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <Reference Include="BoboEngine">
-      <HintPath>..\..\gogozooom\BoboEngine\bin\Debug\net8.0\BoboEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\BoboEngine\bin\Debug\net8.0\BoboEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
 
